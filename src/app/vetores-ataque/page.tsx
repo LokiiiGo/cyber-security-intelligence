@@ -88,8 +88,7 @@ export default function Home() {
                 <p className="text-muted-foreground mt-1">Painel de ameaças em tempo real</p>
               </div>
             </div>
-            <div className="bg-linear-to-r from-green-600 to-green-500 px-4 py-2 rounded-full flex items-center gap-2 text-white font-semibold">
-              <div className="w-2 h-2 bg-white rounded-full animate-pulse"></div>
+            <div className="px-4 py-2 bg-primary text-primary-foreground rounded-lg text-sm font-medium">
               Sistema Ativo
             </div>
           </div>
@@ -133,7 +132,7 @@ export default function Home() {
             return (
               <div
                 key={index}
-                className={`relative overflow-hidden rounded-xl bg-linear-to-br ${metric.color} border border-border p-6 hover:border-accent/50 transition-all group`}
+                className={`relative overflow-hidden rounded-xl bg-gradient-to-br ${metric.color} border border-border p-6 hover:border-accent/50 transition-all group`}
               >
                 <div className="absolute top-2 right-2 opacity-10 group-hover:opacity-20 transition-opacity">
                   <Icon className="w-12 h-12" />
@@ -145,7 +144,7 @@ export default function Home() {
                     <p className="text-sm text-muted-foreground">{metric.title}</p>
                   </div>
                   <div className="mb-2">
-                    <span className="text-3xl font-bold bg-linear-to-r from-accent to-primary bg-clip-text text-transparent">
+                    <span className="text-3xl font-bold bg-gradient-to-r from-accent to-primary bg-clip-text text-transparent">
                       {metric.value}
                     </span>
                   </div>
@@ -184,7 +183,7 @@ export default function Home() {
           {/* Fortiguard Map */}
           <div className="lg:col-span-2">
             <div className="rounded-xl bg-card border border-border overflow-hidden">
-              <div className="bg-linear-to-r from-primary/10 to-accent/10 p-6 border-b border-border">
+              <div className="bg-gradient-to-r from-primary/10 to-accent/10 p-6 border-b border-border">
                 <div className="flex items-center gap-2 mb-3">
                   <Eye className="w-5 h-5 text-accent" />
                   <h3 className="text-xl font-semibold">Fortiguard Threat Map</h3>
@@ -195,7 +194,7 @@ export default function Home() {
               <div className="p-6">
                 <a
                   href="https://threatmap.fortiguard.com/"
-                  className="flex items-center justify-center gap-2 w-full py-12 bg-linear-to-r from-primary/20 to-accent/20 hover:from-primary/30 hover:to-accent/30 rounded-lg border border-primary/30 hover:border-primary/50 transition-all group"
+                  className="flex items-center justify-center gap-2 w-full py-12 bg-gradient-to-r from-primary/20 to-accent/20 hover:from-primary/30 hover:to-accent/30 rounded-lg border border-primary/30 hover:border-primary/50 transition-all group"
                 >
                   <Eye className="w-6 h-6 text-accent group-hover:text-primary transition-colors" />
                   <span className="font-semibold group-hover:text-primary transition-colors">
@@ -214,8 +213,7 @@ export default function Home() {
       {/* Footer */}
       <footer className="border-t border-border bg-card/50 py-8 mt-12">
         <div className="max-w-7xl mx-auto px-6 text-center">
-          <p className="text-muted-foreground">Painel de Inteligência de Ameaças Cibernéticas - Dados em Tempo Real</p>
-          <p className="text-muted-foreground">Fontes: Kaspersky, Checkpoint, Fortinet, Talos Intelligence</p>
+          <p className="text-muted-foreground">© {new Date().getFullYear()} Lucas Bruno Calle Chambi</p>
         </div>
       </footer>
     </div>
