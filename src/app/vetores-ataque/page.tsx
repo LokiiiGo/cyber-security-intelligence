@@ -84,7 +84,7 @@ export default function Home() {
                 <Shield className="w-6 h-6 text-primary-foreground" />
               </div>
               <div>
-                <h1 className="text-4xl font-bold">Cyber Security Intelligence</h1>
+                <h1 className="text-2xl font-bold">Cyber Security Intelligence</h1>
                 <p className="text-muted-foreground mt-1">Painel de ameaças em tempo real</p>
               </div>
             </div>
