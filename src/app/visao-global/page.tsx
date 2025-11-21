@@ -91,7 +91,6 @@ export default function Home() {
               )
             })}
           </nav>
-
           <div className="border border-slate-700 my-6"></div>
         </header>
       </div>
@@ -187,7 +186,8 @@ export default function Home() {
 
       {/* Footer */}
       <div className="bg-black border-t border-slate-700 p-8 text-center mt-16">
-        <p className="text-amber-300 font-semibold">© Lucas Bruno Calle Chambi</p>
+        <p className="text-amber-300 font-semibold">Painel de Inteligência de Ameaças Cibernéticas - Dados em Tempo Real</p>
+        <p className="text-amber-300 font-semibold">Fontes: Kaspersky, Checkpoint, Fortinet, Talos Intelligence</p>
       </div>
     </div>
   )
