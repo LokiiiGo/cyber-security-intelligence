@@ -11,7 +11,7 @@ export default function Home() {
       icon: AlertTriangle,
       color: "from-red-500/20 to-red-600/10",
     },
-    {
+    { 
       title: "Malwares Ativos",
       value: "39.9K",
       description: "Comunicação detectada",
