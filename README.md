@@ -1,36 +1,62 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Cyber Security Intelligence Dashboard
 
-## Getting Started
 
-First, run the development server:
+Este projeto tem como objetivo principal fornecer uma **Visão de Inteligência de Ameaças Cibernéticas (CTI)** em tempo real. Ele monitora e visualiza os ataques e ameaças que ocorrem diariamente no mundo da tecnologia, categorizando-os para oferecer uma análise rápida e acionável.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## Funcionalidades Principais (Os 3 Pilares da CTI)
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+É organizado em torno dos três principais tipos de ameaças de segurança cibernética:
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+### 1. Visão Global (CTI Estratégica)
+* **Monitorização em Tempo Real:** Pulso contínuo de ataques e ameaças ativas.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+* **Mapeamento de Atores:** Visualização da origem (país/região) e do alvo (vítima/indústria) dos ciberataques.
 
-## Learn More
+* **Gráficos de Tendência:** Análise do volume de ataques ao longo do tempo.
 
-To learn more about Next.js, take a look at the following resources:
+### 2. Vetores de Ataques (CTI Tática e Operacional)
+* **Identificação de Vetores:** Exibição dos métodos mais utilizados para comprometer sistemas.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+* **Análise de Malware:** Destaque para as famílias de *malware*, *DDoS*, *Exploits* ou *botnets* (zumbis) mais ativos no período.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+* **Vulnerabilidades Exploradas:** Detalhes técnicos sobre os *exploits* que estão a ser utilizados ativamente (se os dados de *feed* suportarem).
 
-## Deploy on Vercel
+### 3. Ameaças de Email (Engenharia Social)
+* **Top Phishing Targets:** Identificação das marcas ou setores que são mais frequentemente alvo de tentativas de *phishing*.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+* **Detecção de Anexos Maliciosos:** Análise dos tipos de ficheiros (ex: `.zip`, `.pdf`, `.exe`) que estão a ser disseminados via email como vetores de vírus.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+* **Alerta de Engenharia Social:** Foco nas táticas utilizadas para enganar o utilizador e fazê-lo clicar em links ou abrir anexos.
+
+---
+
+## Tecnologias Utilizadas (Tech Stack)
+
+- **Next.js**
+
+- **REACT** 
+
+- **Tailwind CSS** 
+
+- **Vercel**
+
+## Como Executar Localmente
+
+
+### Pré-requisitos
+* Node.js (versão recomendada: 18+)
+
+* npm ou yarn
+
+### Instalação
+1.  Clone o repositório:
+    ```bash
+    git clone [Link do repositório]
+    cd [Nome da Pasta do Projeto]
+    ```
+2.  Instale as dependências:
+    ```bash
+    npm install
+    # ou
+    yarn install
+    ```
