@@ -11,7 +11,7 @@ export default function Home() {
       icon: AlertTriangle,
       color: "from-red-500/20 to-red-600/10",
     },
-    { 
+    {
       title: "Malwares Ativos",
       value: "39.9K",
       description: "Comunicação detectada",
@@ -88,7 +88,8 @@ export default function Home() {
                 <p className="text-muted-foreground mt-1">Painel de ameaças em tempo real</p>
               </div>
             </div>
-            <div className="px-4 py-2 bg-primary text-primary-foreground rounded-lg text-sm font-medium">
+            <div className="bg-linear-to-r from-green-600 to-green-500 px-4 py-2 rounded-full flex items-center gap-2 text-white font-semibold">
+              <div className="w-2 h-2 bg-white rounded-full animate-pulse"></div>
               Sistema Ativo
             </div>
           </div>
@@ -211,11 +212,10 @@ export default function Home() {
       </main>
 
       {/* Footer */}
-      <footer className="border-t border-border bg-card/50 py-8 mt-12">
-        <div className="max-w-7xl mx-auto px-6 text-center">
-          <p className="text-muted-foreground">© {new Date().getFullYear()} Lucas Bruno Calle Chambi</p>
-        </div>
-      </footer>
+      <div className="bg-black border-t border-slate-700 p-8 text-center mt-16">
+        <p className="text-white font-semibold">Painel de Inteligência de Ameaças Cibernéticas - Dados em Tempo Real</p>
+        <p className="text-white font-semibold">Fontes: Kaspersky, Checkpoint, Fortinet, Talos Intelligence</p>
+      </div>
     </div>
   )
 }
