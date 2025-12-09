@@ -1,5 +1,6 @@
 # Cyber Security Intelligence Dashboard
 
+<img src="./public/image/background-cyber.png">
 
 Este projeto tem como objetivo principal fornecer uma **Visão de Inteligência de Ameaças Cibernéticas (CTI)** em tempo real. Ele monitora e visualiza os ataques e ameaças que ocorrem diariamente no mundo da tecnologia, categorizando-os para oferecer uma análise rápida e acionável.
 
@@ -30,25 +31,15 @@ Este projeto tem como objetivo principal fornecer uma **Visão de Inteligência 
 
 ---
 
-## Tecnologias Utilizadas (Tech Stack)
+## Tecnologias Utilizadas
 
-- **Next.js**
-
-- **REACT** 
-
-- **Tailwind CSS** 
-
-- **Vercel**
+![NextJS](https://img.shields.io/badge/nextjs-black?style=for-the-badge&logo=vercel&logoColor=white)
+![React](https://img.shields.io/badge/react-2c2c2c?style=for-the-badge&logo=react&logoColor=32c2c2c)
+![TailwindsCSS](https://img.shields.io/badge/tailwindcss-000815?style=for-the-badge&logo=tailwindcss&logoColor=whit)
+![Vercel](https://img.shields.io/badge/vercel-black?style=for-the-badge&logo=vercel&logoColor=white)
 
 ## Como Executar Localmente
 
-
-### Pré-requisitos
-* Node.js (versão recomendada: 18+)
-
-* npm ou yarn
-
-### Instalação
 1.  Clone o repositório:
     ```bash
     git clone [Link do repositório]
@@ -59,4 +50,8 @@ Este projeto tem como objetivo principal fornecer uma **Visão de Inteligência 
     npm install
     # ou
     yarn install
+    ```
+3.  Inicie o projeto:
+    ```bash
+    npm run dev
     ```
