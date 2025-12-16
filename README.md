@@ -14,7 +14,7 @@ Este projeto tem como objetivo principal fornecer uma **Visão de Inteligência 
 * **Mapeamento de Atores:** Visualização da origem (país/região) e do alvo (vítima/indústria) dos ciberataques.
 
 * **Gráficos de Tendência:** Análise do volume de ataques ao longo do tempo.
-
+ 
 ### 2. Vetores de Ataques (CTI Tática e Operacional)
 * **Identificação de Vetores:** Exibição dos métodos mais utilizados para comprometer sistemas.
 
