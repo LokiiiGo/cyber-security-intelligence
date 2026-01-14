@@ -4,7 +4,7 @@
 
 Este projeto tem como objetivo principal fornecer uma **Visão de Inteligência de Ameaças Cibernéticas (CTI)** em tempo real. Ele monitora e visualiza os ataques e ameaças que ocorrem diariamente no mundo da tecnologia, categorizando-os para oferecer uma análise rápida e acionável.
 
-## Funcionalidades Principais (Os 3 Pilares da CTI)
+## Funcionalidades (Os 3 pilares da CTI)
 
 É organizado em torno dos três principais tipos de ameaças de segurança cibernética:
 
