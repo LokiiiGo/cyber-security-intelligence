@@ -15,7 +15,7 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: "Cyber Security Intelligence",
   description: "Painel de ameaças em tempo real",
-  icons: "./assets/cyber-security.png",
+  icons: "./assets/cyber-security1.png",
 };
 
 export default function RootLayout({
