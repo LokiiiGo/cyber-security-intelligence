@@ -79,7 +79,6 @@ export default function Home() {
 
   return (
     <div className="bg-slate-950 min-h-screen text-white">
-      {/* Header */}
       <div className="px-6 md:px-10 py-8 border-b border-slate-800">
         <header>
           <div className="flex flex-col md:flex-row items-start md:items-center justify-between gap-6 mb-8">
@@ -114,7 +113,6 @@ export default function Home() {
         </header>
       </div>
 
-      {/* Main Content */}
       <div className="px-6 md:px-10 py-10">
         <main>
           <div className="mb-10">
@@ -242,7 +240,6 @@ export default function Home() {
         </main>
       </div>
 
-      {/* Footer */}
       <div className="bg-black border-t border-slate-700 p-8 text-center mt-16">
         <p className="text-amber-300 font-semibold">Painel de Inteligência de Ameaças Cibernéticas - Dados em Tempo Real</p>
         <p className="text-amber-300 font-semibold">Fontes: Kaspersky, Checkpoint, Fortinet, Talos Intelligence</p>

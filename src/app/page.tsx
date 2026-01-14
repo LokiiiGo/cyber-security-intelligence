@@ -60,7 +60,6 @@ export default function Home() {
 
   return (
     <div className="bg-slate-950 min-h-screen">
-      {/* Header */}
       <div className="px-6 md:px-10 py-5">
         <header>
           <div className="flex items-center justify-between mb-6">
@@ -95,7 +94,6 @@ export default function Home() {
         </header>
       </div>
 
-      {/* Main Content */}
       <div className="px-6 md:px-10 py-8">
         <main>
           <div className="mb-10">
@@ -127,7 +125,7 @@ export default function Home() {
           </div>
 
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
-            {/* KasperSky */}
+             
             <div className="bg-slate-800 border border-slate-700 p-6 rounded-2xl">
               <div className="flex items-center gap-3 mb-4">
                 <Map size={24} className="text-blue-400" />
@@ -154,7 +152,6 @@ export default function Home() {
               </div>
             </div>
 
-            {/* Checkpoint */}
             <div className="bg-slate-800 border border-slate-700 p-6 rounded-2xl">
               <div className="flex items-center gap-3 mb-4">
                 <Shield size={24} className="text-purple-400" />
@@ -184,7 +181,6 @@ export default function Home() {
         </main>
       </div>
 
-      {/* Footer */}
       <div className="bg-black border-t border-slate-700 p-8 text-center mt-16">
         <p className="text-amber-300 font-semibold">Painel de Inteligência de Ameaças Cibernéticas - Dados em Tempo Real</p>
         <p className="text-amber-300 font-semibold">Fontes: Kaspersky, Checkpoint, Fortinet, Talos Intelligence</p>

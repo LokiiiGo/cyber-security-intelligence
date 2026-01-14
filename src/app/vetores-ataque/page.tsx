@@ -116,9 +116,7 @@ export default function Home() {
         </div>
       </header>
 
-      {/* Main Content */}
       <main className="max-w-7xl mx-auto px-6 py-12">
-        {/* Section Title */}
         <div className="mb-8">
           <h2 className="text-3xl font-bold mb-2">Módulo 2: Visão Tática</h2>
           <p className="text-muted-foreground">
@@ -126,7 +124,6 @@ export default function Home() {
           </p>
         </div>
 
-        {/* Metrics Grid */}
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 mb-12">
           {metrics.map((metric, index) => {
             const Icon = metric.icon
@@ -156,10 +153,8 @@ export default function Home() {
           })}
         </div>
 
-        {/* Threat Map Section */}
         <div className="grid grid-cols-1 lg:grid-cols-3 gap-6 mb-12">
           <div className="lg:col-span-1 space-y-4">
-            {/* Threat Types */}
             {threatTypes.map((threat, index) => {
               const Icon = threat.icon
               return (
@@ -181,7 +176,6 @@ export default function Home() {
             })}
           </div>
 
-          {/* Fortiguard Map */}
           <div className="lg:col-span-2">
             <div className="rounded-xl bg-card border border-border overflow-hidden">
               <div className="bg-gradient-to-r from-primary/10 to-accent/10 p-6 border-b border-border">
@@ -211,7 +205,6 @@ export default function Home() {
         </div>
       </main>
 
-      {/* Footer */}
       <div className="bg-black border-t border-slate-700 p-8 text-center mt-16">
         <p className="text-white font-semibold">Painel de Inteligência de Ameaças Cibernéticas - Dados em Tempo Real</p>
         <p className="text-white font-semibold">Fontes: Kaspersky, Checkpoint, Fortinet, Talos Intelligence</p>
